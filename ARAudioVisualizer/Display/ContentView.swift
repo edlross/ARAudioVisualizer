@@ -48,6 +48,5 @@ struct ContentView : View {
             timer.upstream.connect().cancel()
             cursor = 0.0
         }
-        print(state)
     }
 }
